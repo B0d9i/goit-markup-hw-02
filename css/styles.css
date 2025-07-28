@@ -1,43 +1,25 @@
-/* ===== CSS RESET ===== */
-/* Основні стилі для body */
+/* ===== BASE STYLES ===== */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    }
-    /* Скидання стилів для списків */
-    ul {
+}
+/* Reset styles */
+ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    }
-    /* Скидання стилів для посилань */
-    a {
+}
+a {
     text-decoration: none;
-    }
-    /* Скидання відступів для заголовків та абзаців */
-    h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-    }
-    /* Прихований заголовок */
-    .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
+}
+/* Visually hidden */
+.visually-hidden {
     clip: rect(0 0 0 0);
+    clip-path: inset(50%);
     overflow: hidden;
-    }
-    /* ===== HEADER ===== */
-    .header {
-    border-bottom: 1px solid #e7e9fc;
-    }
-    /* Логотип */
-    .logo {
+}
+/* ===== HEADER ===== */
+/* Logo */
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -45,48 +27,48 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    }
-    .logo-studio {
+}
+.logo-studio {
     color: #2e2f42;
-    }
-    /* Навігація */
-    .nav-link {
+}
+/* Navigation */
+.nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    }
-    .nav-link:hover,
-    .nav-link:focus {
+}
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
-    }
-    /* Контактна інформація */
-    .contact-info {
+}
+/* Contact info */
+.contact-info {
     font-style: normal;
-    }
-    .contact-link {
+}
+.contact-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    }
-    .contact-link:hover,
-    .contact-link:focus {
+}
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
-    }
-    /* ===== HERO SECTION ===== */
-    .hero-section {
+}
+/* ===== HERO SECTION ===== */
+.hero-section {
     background-color: #2e2f42;
-    }
-    .hero-title {
+}
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    }
-    .hero-button {
+}
+.hero-button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -95,73 +77,69 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    border: none;
-    }
-    .hero-button:hover,
-    .hero-button:focus {
+}
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
-    }
-    /* ===== FEATURES SECTION ===== */
-    .features-title {
+}
+/* ===== FEATURES SECTION ===== */
+.features-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    }
-    .features-text {
+}
+.features-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    }
-    /* ===== TEAM SECTION ===== */
-    .team-section {
+}
+/* ===== TEAM SECTION ===== */
+.team-section {
     background-color: #F4F4FD;
-    }
-    .section-title {
+}
+.section-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    }
-    .team-item {
+}
+.team-item {
     background-color: #FFFFFF;
-    }
-    .team-member-name {
+}
+.team-member-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    }
-    .team-member-position {
+}
+.team-member-position {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    }
-    /* ===== PORTFOLIO SECTION ===== */
-    .portfolio-title {
+}
+/* ===== PORTFOLIO SECTION ===== */
+.portfolio-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    }
-    .portfolio-category {
+}
+.portfolio-category {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    }
-    /* ===== FOOTER ===== */
-    .footer {
+}
+/* ===== FOOTER ===== */
+.footer {
     background-color: #2e2f42;
-    }
-    .footer-logo {
+}
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -169,13 +147,12 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    }
-    .footer-logo-studio {
+}
+.footer-logo-studio {
     color: #f4f4fd;
-    }
-    .footer-text {
-    font-size: 16px;
+}
+.footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    }
+}
